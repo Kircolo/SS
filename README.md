@@ -35,7 +35,7 @@ The build uses:
 
 ## Build
 
-From `c/SS`:
+From the repo root:
 
 ```bash
 make            # builds keygen, encrypt, decrypt
@@ -157,6 +157,6 @@ Last verified in this workspace:
 make clean && make all tests
 ./tests_numtheory
 ./tests_ss
-```git
+```
 
 Result: all build targets and both C test suites passed.
